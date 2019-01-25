@@ -3,7 +3,13 @@
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
+  animation: App-logo-spin infinite 40s linear;
+}
+.App-logo-scew {
+  animation: App-logo-scew infinite 40s linear;
+}
+.App-logo-old {
+  animation: App-logo-spin infinite 40s linear;
   height: 40vmin;
 }
 
@@ -28,5 +34,14 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@keyframes App-logo-scew { 
+  from {
+    transform: skewX(0);
+  }
+  to {
+    transform: skewX(360);
   }
 }
